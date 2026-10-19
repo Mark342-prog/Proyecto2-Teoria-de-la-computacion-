@@ -1,0 +1,7 @@
+# Gramática de prueba para el algoritmo de simplificación.
+S -> A B C | a S | D
+A -> a A | ε
+B -> b | A
+C -> c C | ε
+D -> d D
+E -> x
